@@ -1,0 +1,15 @@
+<form method="post" action="http://www.greenpepperstudios.com/mail/form.php?form=9" id="frmSS9" onsubmit="return CheckForm9(this);" class="myForm">
+	<dl>
+		<dt>First Name:</dt>
+<dd><input name="CustomFields[2]" id="CustomFields_2_9" value="" type="text"></dd><dt>
+Your Email Address:</dt>
+<dd><input name="email" value="" type="text"></dd><dt>
+Preferred Format:</dt>
+<dd><select name="format"><option value="h">HTML</option><option value="t">Text</option></select></dd>
+		<dt>&nbsp;</dt>
+		<dd>
+			<input value="Subscribe" class="submit" type="submit">
+			<br>
+		</dd>
+	</dl>
+</form>
