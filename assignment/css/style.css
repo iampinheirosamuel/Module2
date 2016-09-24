@@ -1,0 +1,92 @@
+
+/***************************base styles****************/
+h1{
+	font-size: 50px;
+	font-family: Florence,cursive;
+	text-align: center;
+	margin-bottom: 80px; 
+}
+
+*{
+	box-sizing: border-box;
+}
+em{
+	
+	padding: 5px;
+	margin-bottom: 30px;
+}
+.title1{
+	background-color: red;
+}
+.title2{
+	background-color: green;
+}
+.title3{
+	background-color: yellow;
+}
+
+
+p{
+	width:300px;
+	height:300px;
+	padding: 15px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "Times New Romanss",Times, sans-serif, fantasy;
+	background-color: gray;
+	margin-right: 20px;
+    position: relative;
+	border: 1px solid black;
+	padding-bottom: 20px;
+	
+}
+
+ .title1 , .title2, .title3{
+ 	text-align: center;
+ 	width: 150px;
+ 	height: 40px;
+ 	font-size: 28px;
+ 	font-family: "Times New Romanss",Times, sans-serif;
+ 	font-weight: bold;
+	border: 1px solid black;
+	position: absolute;
+	top:0;
+	right: 0;
+
+	
+}
+
+/**********Desktop Device*******/
+@media(min-width: 992px)
+{
+    p {
+    	width:30%;
+    	height: 30%;
+    	float: left;
+    }  
+   
+}
+/**********Tablet Device*******/
+@media(min-width: 768px) and (max-width: 991px){
+   #s1 , #s2 {
+    	width:45%;
+    	height: 30%;
+    	float: left;
+    } 
+
+   #s3{
+   	    width:92%;
+    	height: 30%;
+       clear: both;
+  }
+    
+}
+/**********Mobile Device*******/
+
+@media(max-width: 767px){
+p{
+	width:80%;
+	height:40%;
+}
+}
+
