@@ -1,0 +1,89 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #fff;
+	font-family: 'oxygen', sans-serif; 
+	margin-top: 50px;
+}
+
+/** Header Nav**/
+#header-nav{
+	background-color: #fff000;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand{
+	padding-top: 25px;
+}
+
+.navbar-brand h1{
+	font-family: 'Lora', sans-serif;
+	color: #222;
+	font-size: 1.35em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+} 
+.navbar-brand p{
+	color: #989898;
+	text-transform: uppercase;
+	font-size: .7em;
+	margin-top: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border:1px solid #222;
+}
+
+.navbar-brand p span{
+  vertical-align: middle;
+}
+
+#nav-list{
+	margin-top: 10px;
+	background-color: #fff;
+}
+#nav-list a {
+	color: #222;
+	text-align: center;
+
+}
+#nav-list a:hover {
+	background-color: #989898;
+}
+#nav-list a span{
+	font-size: 1.8em;
+	margin-right: 10px;
+}
+ #menu {
+	font-weight: bold;
+	font-size: 3em;
+	font-family: "florence", sans-serif;
+	color: #222;
+	margin-bottom: 40px;
+}
+
+section{
+	background-color: #989898;
+	margin: 10px;
+	padding: 20px;
+	height: 1200px;
+}
+section p{
+	font-size: 1.8em;
+	font-weight: bold;
+	margin: 10px;
+	padding: 5px;
+	color: #222;
+}
+
+@media(max-width: 767px){
+
+}
