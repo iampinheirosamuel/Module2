@@ -1,0 +1,228 @@
+body{
+	font-size: 16px;
+	color: #282828;
+	background-color: #f0f0f0;
+	font-family: 'oxygen', times; 
+}
+
+/** Header Nav**/
+#header-nav{
+	background-color: #fff;
+	border-radius: 0;
+	border: 0;\
+	padding-top: 25px;
+	padding-bottom: 20px;
+	border: 1px solid #f0f0f0;
+    box-shadow: 1px 2px 5px 1px #222;
+}
+
+
+.navbar-brand{
+	
+}
+
+.navbar-brand h1{
+	font-family: 'Lora', sans-serif;
+	color: #282828;
+	font-size: 4vw;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 10px;
+	line-height: .75;
+	
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+} 
+.navbar-brand p{
+	color: #989898;
+	text-transform: uppercase;
+	font-size: .7em;
+	margin-top: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border:1px solid #282828;
+}
+
+.navbar-brand p span{
+  vertical-align: middle;
+}
+
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a {
+	color: #cccccc;
+	text-align: center;
+
+}
+#nav-list a:hover {
+	background-color: #d3d3d3;
+}
+#nav-list a span{
+	font-size: 0.8em;
+	margin-right: 10px;
+}
+#phone{
+	margin-top: 5px;
+}
+#phone a{
+	text-align: right;
+	padding-bottom: 0;
+}
+#phone div{
+	color: #557c3e;
+	text-align: right;
+	padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle{
+  clear: both;
+  margin-top: -40px;
+}
+
+#navbar .nav navbar-nav navbar-right a{
+   margin-right: 5px;
+}
+
+#menu-tile,#special-tile, #map-tile{
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3f0c1f;
+  overflow: hidden;
+}
+h2{
+		font-size: 6vw;
+        font-family: sans-serif; 
+}
+
+img{
+	margin-top: 30px;
+}
+
+ul> li{
+	text-decoration: none;
+	font-family: times;
+    list-style: none;
+    font-size: 10px;
+}
+#demo{
+	padding-top: 30px;
+	font-weight: 0.8;
+	font-size: 4vw;
+	text-overflow: none;
+}
+#body{
+	padding-bottom: 20px
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+    border: 1px solid #f0f0f0;
+    box-shadow: 1px 2px 5px 1px #cccccc;
+	background-color: #fff;
+}
+
+/********************Large Device Screens************************/
+@media(min-width: 1200px) {
+	.container .jumbotron{
+		background: url('../images/logo.png') no-repeat;
+		height: 675px;
+		box-shadow: 0 0 50px #3f0c1f;
+		border:2px solid #3f0c1f;
+	}
+
+}
+
+
+/******************** Medium Device Screens************************/
+@media(min-width:992px) and (max-width:1199px){
+	header #logo-img{
+		background: url('../images/logo-medium.png') no-repeat;
+		width: 100px;
+		height: 100px;
+		margin:5px 5px 5px 0;
+	}
+
+	.container .jumbotron{
+		background: url('../images/logo.png') no-repeat;
+		height: 475px;
+		box-shadow: 0 0 50px #3f0c1f;
+		border:2px solid #3f0c1f;
+
+	}
+
+
+}
+
+/******************** Small Device Screens Screens************************/
+@media(min-width: 768px) and  (max-width: 991px){
+	.container .jumbotron{
+		background: url('../images/logo.png') no-repeat;
+		height: 375px;
+		box-shadow: 0 0 50px #3f0c1f;
+		border:2px solid #3f0c1f;
+
+	}
+
+
+}
+
+/******************** Extra Small Device Screens************************/
+@media(max-width: 767px){
+	.navbar-brand{
+		padding-top: 10px;
+		height: 60px;
+	}
+	.navbar-brand h1{
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+	.navbar-brand p{
+
+		font-size: 0.6em;
+		margin-top: 12px;
+	}
+
+     
+     #call-btn >a {
+         font-size: 1.5em;
+         display: block;
+         margin: 0 20px;
+         padding: 10px;
+         border: 2px solid #fff;
+         background-color: #f6b319;
+         color: #951c49;
+       }
+     #xs-deliver{
+     	margin-top: 10px;
+     	margin-bottom: 10px;
+     	font-size: 0.7em;
+     	letter-spacing: 0.1em;
+     	text-transform: uppercase;
+     }
+     .container .jumbotron{
+		
+		box-shadow: 0 0 50px #3f0c1f;
+		border:2px solid #3f0c1f;
+
+	}
+	.panel-footer section{
+margin-bottom: 30px;
+text-align: center;
+	}
+	.panel-footer section:nth-child(3){
+		margin-bottom: 0;
+
+	}
+	.panel-footer section hr{
+		width: 50%;
+	}
+}
