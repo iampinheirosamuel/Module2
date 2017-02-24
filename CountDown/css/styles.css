@@ -7,19 +7,16 @@ body{
 
 /** Header Nav**/
 #header-nav{
+	margin-top: -20px;
 	background-color: #fff;
 	border-radius: 0;
-	border: 0;\
+	border: 0;
 	padding-top: 25px;
 	padding-bottom: 20px;
-	border: 1px solid #f0f0f0;
-    box-shadow: 1px 2px 5px 1px #222;
+	border-bottom: 5px solid #ffff00;
+    box-shadow: 1px 2px 5px 1px #008000;
 }
 
-
-.navbar-brand{
-	
-}
 
 .navbar-brand h1{
 	font-family: 'Lora', sans-serif;
@@ -56,12 +53,12 @@ body{
 	margin-top: 10px;
 }
 #nav-list a {
-	color: #cccccc;
+	color: #00800;
 	text-align: center;
 
 }
 #nav-list a:hover {
-	background-color: #d3d3d3;
+	background-color: #fff;
 }
 #nav-list a span{
 	font-size: 0.8em;
@@ -104,6 +101,7 @@ h2{
 
 img{
 	margin-top: 30px;
+	
 }
 
 ul> li{
@@ -115,8 +113,10 @@ ul> li{
 #demo{
 	padding-top: 30px;
 	font-weight: 0.8;
-	font-size: 4vw;
-	text-overflow: none;
+	font-size: 3.0vw;
+	text-overflow: hidden;
+	display: block;
+
 }
 #body{
 	padding-bottom: 20px
@@ -170,6 +170,11 @@ ul> li{
 		box-shadow: 0 0 50px #3f0c1f;
 		border:2px solid #3f0c1f;
 
+	}
+
+	#logo{
+		 width: 250px;
+		 height: 250px;
 	}
 
 
