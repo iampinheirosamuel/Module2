@@ -21,40 +21,32 @@
 #menu-0 .mbr-navbar__items a {
   font-family: 'Lora', serif;
 }
-#content5-11 .mbr-header .mbr-header__text {
-  text-align: right;
-  color: #fff;
-}
-#content5-11 .mbr-header .mbr-header__subtext {
-  text-align: center;
-  color: #fff;
-}
-#content5-11 .mbr-article {
-  color: #fff;
-  text-align: right;
-}
-#content5-10 .mbr-header .mbr-header__text {
+#content1-3 DIV {
   text-align: left;
-  color: #fff;
 }
-#content5-10 .mbr-header .mbr-header__subtext {
+#footer1-4 P {
   text-align: center;
-  color: #fff;
 }
-#content5-10 .mbr-article {
-  color: #fff;
-}
-#msg-box4-4 .mbr-header__text {
+#msg-box4-1 .mbr-header__text {
   color: #000000;
+  font-size: 24px;
+  text-align: left;
 }
-#msg-box4-4 .mbr-header__subtext {
+#msg-box4-1 .mbr-header__subtext {
   color: #ffffff;
 }
-#msg-box4-4 .mbr-article {
-  color: #000000;
+#msg-box4-1 .mbr-article {
+  color: #ffffff;
 }
-#contacts2-0 P {
-  font-size: 15px;
+#msg-box4-1 .mbr-article P {
+  color: #7c706b;
+  text-align: left;
+}
+#social-buttons1-0 .mbr-header__text DIV {
+  color: #efefef;
+}
+#social-buttons1-0 .mbr-header__text {
+  color: #efefef;
 }
 
 
@@ -63,6 +55,25 @@
 }
 #header1-0 P {
   text-align: center;
+}
+#msg-box4-4 .mbr-header__text {
+  color: #252525;
+}
+#msg-box4-4 .mbr-header__subtext {
+  color: #ffffff;
+}
+#msg-box4-4 .mbr-article {
+  color: #ffffff;
+}
+#msg-box4-4 .mbr-article P {
+  color: #7c706b;
+  text-align: left;
+}
+#content4-0 P {
+  text-align: left;
+}
+#content4-0 .mbr-section__col .mbr-header__text {
+  text-align: left;
 }
 #pricing-table1-0 .mbr-plan__details UL {
   text-align: center;
@@ -86,11 +97,14 @@
 #menu-0 .mbr-navbar__items a {
   font-family: 'Lora', serif;
 }
-#contacts2-0 P {
-  font-size: 15px;
+#footer1-0 P {
+  text-align: center;
 }
 
 
+#social-buttons2-0 .mbr-header__text {
+  color: #ffffff;
+}
 #menu-0 .mbr-brand__name {
   font-size: 16px;
 }
@@ -110,8 +124,8 @@
 #menu-0 .mbr-navbar__items a {
   font-family: 'Lora', serif;
 }
-#contacts2-0 P {
-  font-size: 15px;
+#footer1-0 P {
+  text-align: center;
 }
 
 
@@ -143,7 +157,13 @@
 #menu-0 .mbr-navbar__items a {
   font-family: 'Lora', serif;
 }
+#footer1-0 P {
+  text-align: center;
+}
 #social-buttons1-0 .mbr-header__text {
+  text-align: left;
+}
+#social-buttons1-0 .mbr-header__text SPAN {
   text-align: left;
 }
 #msg-box4-1 .mbr-header__text {
@@ -209,7 +229,4 @@
 }
 #msg-box4-6 .mbr-article {
   color: #ffffff;
-}
-#contacts2-0 P {
-  font-size: 15px;
 }

@@ -45,6 +45,7 @@ html {
 .mbr-navbar__brand-link:after,
 .mbr-navbar__brand-img {
   max-height: 74px;
+  height: 100%;
 }
 .mbr-navbar:before,
 .mbr-navbar__container {
@@ -432,6 +433,15 @@ html {
     top: 9px;
   }
 }
+
+.navbar-dropdown .hamburger-icon {
+  content: "";
+  width: 16px;
+  -webkit-box-shadow: 0 -6px 0 1px,0 0 0 1px,0 6px 0 1px;
+  -moz-box-shadow: 0 -6px 0 1px,0 0 0 1px,0 6px 0 1px;
+  box-shadow: 0 -6px 0 1px,0 0 0 1px,0 6px 0 1px;
+}
+
 .mbr-brand {
   display: block;
   float: left;
@@ -1716,7 +1726,15 @@ html {
   font-size: 250px; /* ~ image.height */
   text-decoration:none;
 }
-.engine {
+
+@media (max-width: 768px) {
+  .image-size{
+    width: 100% !important;
+  }
+  .content-size{
+    width: 100%;
+  }
+}.engine {
 	position: absolute;
 	text-indent: -2400px;
 	text-align: center;
