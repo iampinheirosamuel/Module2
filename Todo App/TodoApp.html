@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Todo List</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript">
+
+	    var myArray = [];
+
+		function todoArray(){
+			var myTodo = document.getElementById('todo').value;			    
+		    if (myTodo == 0) {
+		    	alert('It can not enter an empty todo!');
+		    }else{
+		    	 myArray.push(myTodo);
+		    }
+            
+		    Show();
+		}
+       
+        function Show(){
+		    this.todolist ="";
+	        for(var i = 0; i < myArray.length; i++) {
+	           todolist += "<li>"+myArray[i]+"</li>";
+	        }
+           document.getElementById('display').innerHTML = todolist;
+        }       
+		 function Save(){
+		 	var saved = localStorage.setItem('store',todolist);
+		 }
+	</script>
+</head>
+<body> 
+    
+    <div class="wrapper"> 
+        <h2>Hey Sam! What are you doing today?</h2>    
+        <div class="center">
+    	<input type="text" id="todo">
+    	<button type="submit" onclick="todoArray()">Submit</button>
+    	</div>
+    <br>
+    <button onclick="Save()">Save My Todolist</button>
+    <div>
+    	<ul id="display">
+    		
+    	</ul>
+    </div>
+     </div>
+</body>
+</html>
