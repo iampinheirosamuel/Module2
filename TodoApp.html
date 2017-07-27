@@ -21,7 +21,7 @@
         function Show(){
 		    this.todolist ="";
 	        for(var i = 0; i < myArray.length; i++) {
-	           todolist += "<li>"+myArray[i]+"</li>";
+	           todolist += "<li><input type='checkbox' />"+myArray[i]+"</li>";
 	        }
            document.getElementById('display').innerHTML = todolist;
         }       
@@ -33,13 +33,13 @@
 <body> 
     
     <div class="wrapper"> 
-        <h2>Hey Sam! What are you doing today?</h2>    
+        <h2>Hello! What are you doing today?</h2>    
         <div class="center">
     	<input type="text" id="todo">
     	<button type="submit" onclick="todoArray()">Submit</button>
     	</div>
     <br>
-    <button onclick="Save()">Save My Todolist</button>
+   <!--  <button onclick="Save()">Save My Todolist</button> -->
     <div>
     	<ul id="display">
     		
