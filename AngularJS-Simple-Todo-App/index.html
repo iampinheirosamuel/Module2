@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="AddressBook">
+<head>
+	<title>Simple Address Book</title>
+     <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body ng-controller="peopleController">    	
+     	<center><button ng-hide="formVisibility" ng-click="Showform()">Add Contact</button></center>
+     	<div class="wrapper" ng-show="formVisibility">
+     		Name:<input type="text" ng-model="neWpeople.name"><br>
+     		Phone:<input type="text" ng-model="neWpeople.phone"><br>
+     		City:<input type="text" ng-model="neWpeople.city"><br>
+             <button ng-click="Save()">Save</button>
+     	</div> 
+     <br><br>
+     <div class="wrapper">
+     	<div >
+     		<div class="contact_item" ng-repeat="person in people">
+     			<div class="name">{{person.name}} - {{person.phone}}</div>
+     			<span class="city">{{person.city}}</span>
+     		</div>
+     	</div>
+     </div>
+</body>
+<script src="angular.min.js"></script>
+<script src="controller.js"></script>
+</html>
